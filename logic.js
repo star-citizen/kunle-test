@@ -13,7 +13,6 @@ function toLower(v) {
 // Define a device schema
 const deviceSchema = mongoose.Schema({
   name: { type: String, set: toLower },
-  deviceId: { type: Number },
   status: { type: String, set: toLower },
   range: { type: Number },
 });

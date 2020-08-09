@@ -13,11 +13,6 @@ const addDeviceQuestions = [
   },
   {
     type: "input",
-    name: "deviceId",
-    message: "Enter custom device ID:",
-  },
-  {
-    type: "input",
     name: "status",
     message: "Enter device status (on/off):",
   },
